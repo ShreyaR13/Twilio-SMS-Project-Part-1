@@ -12,4 +12,5 @@ $client = new Client($account_sid, $auth_token);
 $messages = $client->accounts("AC6f189af575538e547c0c8bc566ecebba")
   ->messages->create("+12016809992", array(
         'From' => "+12017201388",
+        'Body' => "How Are you?",
   ));
