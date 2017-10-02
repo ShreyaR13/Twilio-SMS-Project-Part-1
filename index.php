@@ -5,7 +5,7 @@
     $account_sid = 'AC6f189af575538e547c0c8bc566ecebba';
     $auth_token = '73e55146dfda04d73a2e28deba19a417';
     $client = new Client($account_sid, $auth_token);
-    $messages = $client->messages->create('+12016809992', array(
+    $messages = $client->messages->create('+19173490168', array(
          'From' => '+12017201388',
          'Body' => 'Hello from Shreya Rajwade CS 643 Fall 2017'
     ));
