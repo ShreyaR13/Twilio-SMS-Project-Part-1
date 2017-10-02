@@ -7,6 +7,8 @@
     $client = new Client($account_sid, $auth_token);
     $messages = $client->messages->create('+12016809992', array(
          'From' => '+12017201388',
-         'Body' => 'Hello from my PHP code!'
+         'Body' => 'Hello from Shreya Rajwade CS 643 Fall 2017'
     ));
 ?>
+
+Message Sent!
